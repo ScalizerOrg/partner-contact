@@ -12,9 +12,9 @@ dependencies = [
     "odoo-addon-partner_ref_unique==19.0.*",
     "odoo-addon-partner_supplier_ref==19.0.*",
     "odoo-addon-partner_vat_unique==19.0.*",
-    "odoo-addon-base_tier_validation==19.0.*",
+    "odoo-addon-base_tier_validation @ git+https://github.com/ScalizerOrg/scalizer_tier-validation.git@19.0",
 ]
-classifiers=[
+classifiers = [
     "Programming Language :: Python",
     "Framework :: Odoo",
     "Framework :: Odoo :: 19.0",
